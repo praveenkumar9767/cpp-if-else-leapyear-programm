@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int leapyear;
+    cout<< " enter the year" ;
+    cin>> leapyear;
+    if (leapyear%4==0){
+        cout<< " yes this is leap year"<< endl;
+
+    }else{
+        cout<< " this is not a leap year"<< endl;
+    }
+}
+ //https://github.com/praveenkumar9767//
